@@ -56,8 +56,11 @@ export const mystyles = StyleSheet.create({
     marginTop: 10,
   },
   task_container: {
-    height: 625,
+    height: 600,
     overflowY: 'scroll',
+    paddingVertical:5,
+    paddingBottom:15,
+    borderRadius:5
   },
   inner_list_view_item: {
     flex: 1,
